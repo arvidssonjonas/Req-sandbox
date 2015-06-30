@@ -13,7 +13,7 @@
           "attr": {
             "attachment": {
               "contentType": "text/html",
-              "content": "Detta är en kommentar<div>Det går inte att koppla upp sig</div>"
+              "content": "Detta är en kommentar<div>Det går inte att koppla upp sig</div><div>En till rad</div>"
             },
             "style": {}
           }
