@@ -59,6 +59,12 @@
                   "position": "left"
                 },
                 "progress": "passing"
+              },
+              "ideas": {
+                "1": {
+                  "title": "Från platta",
+                  "id": 10
+                }
               }
             }
           },
