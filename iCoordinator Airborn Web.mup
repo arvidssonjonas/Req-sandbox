@@ -1,0 +1,580 @@
+{
+  "title": "iCoordinator Airborn Web",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "4": {
+      "title": "Functions",
+      "id": "131.gd147bd7c692c3b17a",
+      "ideas": {
+        "1": {
+          "title": "Drive",
+          "id": "19.gd3bb558cfbc95be0f",
+          "ideas": {
+            "1": {
+              "title": "File operations",
+              "id": "23.gd3bb558cfbc95be0f",
+              "ideas": {
+                "3": {
+                  "title": "Open it",
+                  "id": 2,
+                  "attr": {
+                    "collapsed": true
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Normal",
+                      "id": "39.gd3bb558cfbc95be0f"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Delete it",
+                  "id": 3,
+                  "attr": {
+                    "style": {},
+                    "collapsed": true
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Permission constraints",
+                      "id": "41.gd3bb558cfbc95be0f"
+                    },
+                    "2": {
+                      "title": "Ends up in trash",
+                      "id": "48.gd3bb558cfbc95be0f"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Move it",
+                  "id": 10,
+                  "ideas": {
+                    "1": {
+                      "title": "Normal",
+                      "id": "34.gd3bb558cfbc95be0f"
+                    },
+                    "2": {
+                      "title": "File already exists",
+                      "id": "35.gd3bb558cfbc95be0f"
+                    },
+                    "3": {
+                      "title": "Location user has not access to",
+                      "id": "36.gd3bb558cfbc95be0f"
+                    },
+                    "4": {
+                      "title": "Not allowed due to permissions",
+                      "id": "61.gd147bd7c692c3b17a"
+                    },
+                    "5": {
+                      "title": "Check permissions",
+                      "id": "122.gd147bd7c692c3b17a"
+                    }
+                  },
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "6": {
+                  "title": "Rename it",
+                  "id": 11,
+                  "ideas": {
+                    "1": {
+                      "title": "Empty name",
+                      "id": "13.gd3bb558cfbc95be0f"
+                    },
+                    "2": {
+                      "title": "Same name as previous",
+                      "id": "14.gd3bb558cfbc95be0f"
+                    },
+                    "3": {
+                      "title": "File name with illegal characters",
+                      "id": "15.gd3bb558cfbc95be0f"
+                    },
+                    "4": {
+                      "title": "Normal",
+                      "id": "17.gd3bb558cfbc95be0f"
+                    },
+                    "5": {
+                      "title": "Not allowed due to permissions",
+                      "id": "60.gd147bd7c692c3b17a"
+                    }
+                  },
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "7": {
+                  "title": "Trash bin",
+                  "id": "43.gd3bb558cfbc95be0f",
+                  "ideas": {
+                    "1": {
+                      "title": "Restore from trash",
+                      "id": "44.gd3bb558cfbc95be0f",
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "Delete from trash",
+                      "id": "46.gd3bb558cfbc95be0f"
+                    }
+                  },
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "8": {
+                  "title": "Upload",
+                  "id": "111.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Large file",
+                      "id": "112.gd147bd7c692c3b17a"
+                    },
+                    "2": {
+                      "title": "Connection interrupted",
+                      "id": "113.gd147bd7c692c3b17a"
+                    },
+                    "3": {
+                      "title": "File already exists",
+                      "id": "114.gd147bd7c692c3b17a"
+                    }
+                  }
+                },
+                "9": {
+                  "title": "Download",
+                  "id": "124.gd147bd7c692c3b17a"
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Search",
+              "id": "62.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "Search for file",
+                  "id": "63.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Result containing filename, Workspace, Location",
+                      "id": "64.gd147bd7c692c3b17a"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "File content",
+                  "id": "65.gd147bd7c692c3b17a"
+                },
+                "3": {
+                  "title": "File and folder metadata",
+                  "id": "66.gd147bd7c692c3b17a"
+                },
+                "4": {
+                  "title": "Folders",
+                  "id": "67.gd147bd7c692c3b17a"
+                }
+              },
+              "attr": {
+                "position": [
+                  91,
+                  131.75,
+                  1
+                ],
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Folder operations",
+              "id": "71.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "Create new",
+                  "id": "72.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Same name as another folder",
+                      "id": "82.gd147bd7c692c3b17a"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Trash bin",
+                  "id": "78.gd147bd7c692c3b17a"
+                },
+                "5": {
+                  "title": "Move it",
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Normal",
+                      "id": "85.gd147bd7c692c3b17a"
+                    },
+                    "2": {
+                      "title": "File already exists",
+                      "id": "86.gd147bd7c692c3b17a"
+                    },
+                    "3": {
+                      "title": "Location user has not access to",
+                      "id": "87.gd147bd7c692c3b17a"
+                    },
+                    "4": {
+                      "title": "Not allowed due to permissions",
+                      "id": "88.gd147bd7c692c3b17a"
+                    }
+                  },
+                  "id": "84.gd147bd7c692c3b17a"
+                },
+                "6": {
+                  "title": "Delete it",
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Permission constraints",
+                      "id": "91.gd147bd7c692c3b17a"
+                    },
+                    "2": {
+                      "title": "Ends up in trash",
+                      "id": "92.gd147bd7c692c3b17a"
+                    }
+                  },
+                  "id": "90.gd147bd7c692c3b17a"
+                },
+                "7": {
+                  "title": "Rename it",
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Empty name",
+                      "id": "94.gd147bd7c692c3b17a"
+                    },
+                    "2": {
+                      "title": "Same name as previous",
+                      "id": "95.gd147bd7c692c3b17a"
+                    },
+                    "3": {
+                      "title": "File name with illegal characters",
+                      "id": "96.gd147bd7c692c3b17a"
+                    },
+                    "4": {
+                      "title": "Normal",
+                      "id": "97.gd147bd7c692c3b17a"
+                    },
+                    "5": {
+                      "title": "Not allowed due to permissions",
+                      "id": "98.gd147bd7c692c3b17a"
+                    }
+                  },
+                  "id": "93.gd147bd7c692c3b17a"
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "Workspaces",
+              "id": "99.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "Create",
+                  "id": "100.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Not allowed due to permissions",
+                      "id": "101.gd147bd7c692c3b17a",
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "Allowed",
+                      "id": "104.gd147bd7c692c3b17a"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Delete",
+                  "id": "105.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Allowed even though users are added ?",
+                      "id": "106.gd147bd7c692c3b17a",
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "Permissions",
+              "id": "115.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "Set permissions for file & folder",
+                  "id": "116.gd147bd7c692c3b17a"
+                },
+                "2": {
+                  "title": "Find out permissions for a file & folder",
+                  "id": "117.gd147bd7c692c3b17a"
+                },
+                "3": {
+                  "title": "Inherited permissions",
+                  "id": "120.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "Test top level as well",
+                      "id": "121.gd147bd7c692c3b17a"
+                    }
+                  }
+                }
+              }
+            },
+            "6": {
+              "title": "Groups",
+              "id": "119.gd147bd7c692c3b17a"
+            },
+            "7": {
+              "title": "Favourites",
+              "id": "127.gd147bd7c692c3b17a",
+              "ideas": {}
+            },
+            "8": {
+              "title": "Create shortcut",
+              "id": "129.gd147bd7c692c3b17a"
+            },
+            "9": {
+              "title": "Use Built-in viewer",
+              "id": "130.gd147bd7c692c3b17a"
+            },
+            "10": {
+              "title": "Smart Folders",
+              "id": "152.gd147bd7c692c3b17a",
+              "attr": {
+                "style": {}
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "People",
+          "id": "132.gd147bd7c692c3b17a",
+          "ideas": {
+            "1": {
+              "title": "List workspace users",
+              "id": "133.gd147bd7c692c3b17a"
+            },
+            "2": {
+              "title": "Search for user",
+              "id": "134.gd147bd7c692c3b17a"
+            },
+            "3": {
+              "title": "User profile",
+              "id": "135.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "Edit user profile",
+                  "id": "140.gd147bd7c692c3b17a",
+                  "ideas": {
+                    "1": {
+                      "title": "All information can be edited",
+                      "id": "144.gd147bd7c692c3b17a"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "View  user profile",
+                  "id": "142.gd147bd7c692c3b17a"
+                }
+              }
+            },
+            "4": {
+              "title": "Groups",
+              "id": "150.gd147bd7c692c3b17a",
+              "ideas": {
+                "1": {
+                  "title": "View group members",
+                  "id": "147.gd147bd7c692c3b17a",
+                  "ideas": {}
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Admin",
+          "id": "137.gd147bd7c692c3b17a",
+          "ideas": {}
+        }
+      }
+    },
+    "6": {
+      "title": "Platform",
+      "id": "22.gd3bb558cfbc95be0f",
+      "attr": {
+        "collapsed": true,
+        "style": {}
+      },
+      "ideas": {
+        "3": {
+          "title": "Tablet",
+          "id": "28.gd3bb558cfbc95be0f",
+          "attr": {},
+          "ideas": {
+            "1": {
+              "title": "Android",
+              "id": "56.gd147bd7c692c3b17a"
+            },
+            "2": {
+              "title": "Ipad",
+              "id": "57.gd147bd7c692c3b17a"
+            }
+          }
+        },
+        "4": {
+          "title": "Browsers",
+          "id": "49.gd147bd7c692c3b17a",
+          "ideas": {
+            "1": {
+              "title": "Safari",
+              "id": "51.gd147bd7c692c3b17a",
+              "ideas": {}
+            },
+            "2": {
+              "title": "Chrome",
+              "id": "53.gd147bd7c692c3b17a"
+            },
+            "3": {
+              "title": "Firefox",
+              "id": "54.gd147bd7c692c3b17a"
+            },
+            "4": {
+              "title": "Internet Explorer",
+              "id": "55.gd147bd7c692c3b17a"
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "title": "Time",
+      "id": "109.gd147bd7c692c3b17a",
+      "ideas": {
+        "1": {
+          "title": "One user VS 1000 Workspace users",
+          "id": "110.gd147bd7c692c3b17a"
+        },
+        "2": {
+          "title": "Log in time when server is busy",
+          "id": "126.gd147bd7c692c3b17a"
+        }
+      }
+    },
+    "-1": {
+      "title": "Structure",
+      "id": "18.gd3bb558cfbc95be0f",
+      "ideas": {
+        "1": {
+          "title": "Languages",
+          "id": "59.gd147bd7c692c3b17a"
+        },
+        "2": {
+          "title": "Breadcrumb trail",
+          "id": "69.gd147bd7c692c3b17a",
+          "ideas": {
+            "1": {
+              "title": "Can be used for navigation",
+              "id": "70.gd147bd7c692c3b17a"
+            }
+          }
+        },
+        "3": {
+          "title": "Date format",
+          "id": "151.gd147bd7c692c3b17a"
+        }
+      }
+    },
+    "-21": {
+      "title": "Data",
+      "id": "20.gd3bb558cfbc95be0f",
+      "ideas": {
+        "1": {
+          "title": "Test License boundaries regarding users",
+          "id": "107.gd147bd7c692c3b17a",
+          "ideas": {}
+        }
+      }
+    },
+    "-0.5": {
+      "title": "Operations",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "Who is admin ? (Can I find out or contact and admin ?)",
+          "id": "118.gd147bd7c692c3b17a"
+        },
+        "2": {
+          "title": "User's guide",
+          "id": "139.gd147bd7c692c3b17a"
+        }
+      },
+      "attr": {
+        "position": [
+          184,
+          -139,
+          1
+        ],
+        "style": {}
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "progress-statuses": {
+      "": {
+        "style": {
+          "background": false
+        },
+        "priority": 1,
+        "description": "Not Started"
+      },
+      "failure": {
+        "style": {
+          "background": "#FF3300"
+        },
+        "priority": 999,
+        "description": "Failed"
+      },
+      "in-progress": {
+        "style": {
+          "background": "#FFCC00"
+        },
+        "priority": 2,
+        "description": "In Progress"
+      },
+      "passing": {
+        "style": {
+          "background": "#00CC00"
+        },
+        "description": "Passed"
+      }
+    },
+    "style": {}
+  }
+}
