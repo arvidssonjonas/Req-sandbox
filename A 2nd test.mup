@@ -26,6 +26,12 @@
             "measurements": {
               "time": "45"
             }
+          },
+          "ideas": {
+            "1": {
+              "title": "asesdffd",
+              "id": 10
+            }
           }
         },
         "2": {
@@ -76,8 +82,7 @@
               "height": 25,
               "position": "left"
             },
-            "progress": "passing",
-            "collapsed": true
+            "progress": "passing"
           }
         }
       },
@@ -89,8 +94,7 @@
           "height": 25,
           "position": "left"
         },
-        "progress": "failure",
-        "collapsed": true
+        "progress": "failure"
       }
     },
     "-1": {
